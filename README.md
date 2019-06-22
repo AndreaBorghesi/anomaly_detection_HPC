@@ -58,8 +58,11 @@ davide45
 
 * Run script and perform anomaly detection on a particular node (among those
   available -- check in the downloaded data)
-    - python3 detect_anomalies <node>
-    - e.g. python3 detect_anomalies davide18
+    - python3 detect_anomalies <node> <mode>
+    - <node> specifies the node to perform the anomaly detection
+    - <mode> specifies the approach to be used; allowed values: 
+        - 0 -- autoencoder-based semi-supervised approach
+    - e.g. python3 detect_anomalies davide18 0
 
 
 
