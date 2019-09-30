@@ -420,7 +420,7 @@ def retrieve_data(start_time, end_time, node, data_dir):
     ipmi_file = data_dir + node + '_ipmi_'
     ipmi_file += str(start_time).replace('-','').replace(
             ':','').replace(' ','_') + '_'
-    impi_file += str(end_time).replace('-','').replace(
+    ipmi_file += str(end_time).replace('-','').replace(
             ':','').replace(' ','_') + '.pickle'
     phys_data_ipmi[node] = load_data(ipmi_file)
     if phys_data_ipmi[node] == None:
