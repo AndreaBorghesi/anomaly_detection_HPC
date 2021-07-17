@@ -3,10 +3,10 @@ This repository contains the set of script capable to replicate parts of the
 work described in:
 1) "Anomaly Detection using Autoencoders in High Performance Computing Systems",
 Andrea Borghesi, Andrea Bartolini, Michele Lombardi, Michela Milano, Luca
-Benini, IAAI19 (proceedings in process) -- https://arxiv.org/abs/1902.08447
+Benini, IAAI19 (proceedings in process) -- https://arxiv.org/abs/1811.05269
 2) "Online Anomaly Detection in HPC Systems", Andrea Borghesi, Antonio Libri,
 Luca Benini, Andrea Bartolini, AICAS19 (proceedings in process) --
-https://arxiv.org/abs/1811.05269
+https://arxiv.org/abs/1902.08447
 
 Fine-grained data was collected on the D.A.V.I.D.E. HPC system (developed in
 joint collaboration by CINECA & E4 & University of Bologna, Bologna, Italy); the
